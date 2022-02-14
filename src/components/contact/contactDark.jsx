@@ -16,27 +16,18 @@ function ContactDark() {
 
             <section>
                 <div className='cardContainer'>
-
+                    <a href="https://www.linkedin.com/in/pablo-pulisich-438712160/" rel="norel" target="_blank">
                     <div className="card">
                         <h3>LinkedIn</h3>
                     </div>
+                    </a>
 
-
-                    <div className="card">
-                        <h3>Gmail</h3>
-                    </div>
-
-
-
-                    <div className="card">
-                        <h3>Discord</h3>
-                    </div>
-
-
+                   
+                    <a href="https://wa.me/5493517671598" rel="norel" target="_blank">
                     <div className="card">
                         <h3>WhatsApp</h3>
                     </div>
-
+                    </a>
 
                 </div>   
 

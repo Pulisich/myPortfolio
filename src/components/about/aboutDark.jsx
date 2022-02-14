@@ -1,4 +1,5 @@
 import React from "react";
+import ReturnHome from "../returnButton/returnButton";
 
 function AboutDark(){
 
@@ -8,6 +9,7 @@ function AboutDark(){
                 <h1>Sobre Mi</h1>
                 <h2>¿Quién es Pablo Pulisich?</h2>
             </header>
+            <ReturnHome/>
             <section>
                 <p>
                 En ésta sección vas a encontrar una breve descripción mía, quién soy, cuáles son mis objetivos, cuáles son mis planes a futuro, y algún que otro dato interesante
