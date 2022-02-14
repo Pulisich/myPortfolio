@@ -8,7 +8,6 @@ function TKD(){
             <ReturnProjects/>
             <section className="projectDescription">
 
-                <img src="" alt="cityPhoneScreenShot" />
                 <p> Realizado para el módulo de Web Development de la carrera de Desarrollador Front End de Coderhouse.
                     <br /> 
                     El objetivo era proporcionar a los miembros de la escuela de un hub donde pudieran obtener información de la misma y poder usar el material de estudio para guiarse.
