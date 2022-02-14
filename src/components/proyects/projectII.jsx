@@ -4,14 +4,15 @@ import ReturnProjects from "../returnButton/returnProjectButton";
 function JorgeLandaJS(){
     return(
         <div>
-            <header>Jorge Landa E-Commerce</header>
+            <header className="headerDark"><h1>Jorge Landa E-Commerce</h1></header>
             <ReturnProjects/>
             <section className="projectDescription">
 
-                <img src="" alt="cityPhoneScreenShot" />
-                <p> Realizado para el módulo de React JS de la carrera de Desarrollador Front End de Coderhouse.
+                <p> Realizado para el módulo de JavaScript de la carrera de Desarrollador Front End de Coderhouse.
                     <br />
-                    Emula lo que sería el e-commerce de un local de accesorios de celulares en el que trabajo.
+                    Emula lo que sería el e-commerce de la sección de pastas.
+                    <br />
+                    Imágenes reemplazadas por genéricas debido a conflictos de uso.
                 </p>
 
                 <h2>

@@ -4,14 +4,14 @@ import ReturnProjects from "../returnButton/returnProjectButton";
 function JorgeLandaLanding(){
     return(
         <div>
-            <header>Jorge Landa: Landing</header>
+            <header className="headerDark"><h1>Jorge Landa: Landing Page</h1></header>
             <ReturnProjects/>
             <section className="projectDescription">
 
-                <img src="" alt="cityPhoneScreenShot" />
-                <p> Realizado para el módulo de React JS de la carrera de Desarrollador Front End de Coderhouse.
+                <p> 
+                    Landing Page diseñada para el módulo de Free Code Camp, y ofrecida al chef Jorge Landa para su uso.
                     <br />
-                    Emula lo que sería el e-commerce de un local de accesorios de celulares en el que trabajo.
+                    Es una SPA que permite visualizar el catálogo de Jorge Landa Delicatessen y comunicarse con el al final.
                 </p>
 
                 <h2>

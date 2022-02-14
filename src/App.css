@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -7,13 +8,43 @@ a{
   text-decoration: none;
   color: antiquewhite;
 }
+/*HOME*/
+.headerDark{
+  text-align: center;
+  padding: 3%;
+  margin-top: -2%;
+  margin-left: 0%;
+  width: 100%;
+  height: auto;
+  background-color: #313E50;
+  color: #7A9CC6;
+  font-family: 'Pridi', serif;
+}
+.headerDark h1{
+  font-size: 260%;
+  margin-right: 2%;
+}
+.introDark{
+  background-color: #445561;
+  color: #7A9CC6;
+  padding: 3%;
+}
 
+.introDark h2{
+  font-family:  'Pridi', serif;
+  font-size: 200%
+}
+
+.introDark p{
+  font-family: 'Poly', serif;
+  font-size: 130%;
+}
 /*CARDS*/
 /* From cssbuttons.io by @fanishah */
 .card {
   color: antiquewhite;
   width: 12.5rem;
-  height: 12rem;
+  height: 4rem;
   background-color: #212121;
   border-radius: 1rem;
   border: #212121 0.2rem solid;
@@ -30,17 +61,87 @@ a{
 
 
  .cardContainer{
-   margin-top: 3%;
+   background-color: #6C6F7F;
+   padding: 3%;
    display: flex;
    flex-flow: row;
    flex-wrap: wrap;
    justify-content: space-around ;
  }
 
+.proyectos{
+  margin-top: -1.5%;
+  background-color: #6C6F7F;
+  padding: 2%;
+  color: #7A9CC6;
 
+
+}
+
+.proyectos h2{
+  font-size: 150%;
+}
+.about{
+  padding: 2%;
+  background-color: #455561;
+  color: #FFFD98;
+}
+
+.about ul{
+  list-style-type: none;
+  text-align: center;
+  margin-right: 2.5%;
+}
+
+.projectDescription{
+  background-color: #6C6F7F;
+  color: #313E50;
+  font-family: 'Pridi', serif;
+  padding: 2%;
+}
+.projectDescription p{
+ font-size: 175%;
+}
+.projectDescription ul{
+  list-style-type: none;
+  font-size: 150%;
+  margin-right: 2%;
+}
+
+/* From cssbuttons.io */
+.projectDescription button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+ }
+ 
+ .projectDescription button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+ }
+ 
+ .projectDescription button:active {
+  transform: translateY(-1px);
+ }
  /*FOOTER*/
  .footer{
-    margin-top: 3%;
+   width: 100%;
+   height: auto;
+   padding: 4%;
+   margin-bottom: 0;
+   position: absolute;
    display: flex;
    flex-flow:row;
    flex-wrap: wrap;
@@ -48,6 +149,8 @@ a{
    align-content: center;
    justify-items: center;
    justify-content: center;
+   background-color: #3A435E;
+   color: #7A9CC6;
  }
  .gitProfile{
 
@@ -105,12 +208,13 @@ a{
 
   /* From cssbuttons.io by @cuatrofender */
 .returnButton {
+
   border: none;
   font-family: sans-serif;
   font-size: 17px;
   background: transparent;
-  color: #006bb3;
-  border: solid 1px rgba(0, 107, 179, 0.2);
+  color: #7A9CC6;
+  border: solid 3px rgba(3, 153, 253, 0.2);
   padding: 10px;
   border-radius: 4px;
   transition-duration: 0.2s;
@@ -135,8 +239,9 @@ a{
  }
 
  .return{
-   position: sticky;
+   position: fixed;
    display: flex;
    align-items: flex-end;
    justify-content: flex-end;
+   z-index: 100;
  }

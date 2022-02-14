@@ -4,14 +4,14 @@ import ReturnProjects from "../returnButton/returnProjectButton";
 function EcoCuchas(){
     return(
         <div>
-            <header>Eco Cuchas</header>
+            <header className="headerDark"><h1>Eco Cuchas</h1></header>
             <ReturnProjects/>
             <section className="projectDescription">
 
-                <img src="" alt="cityPhoneScreenShot" />
-                <p> Realizado para el módulo de React JS de la carrera de Desarrollador Front End de Coderhouse.
+                <p> 
+                    <b>STATUS: EN PROCESO DE DESARROLLO, DISEÑO Y PALETA DE COLORES EN APROBACIÓN PENDIENTE</b>
                     <br />
-                    Emula lo que sería el e-commerce de un local de accesorios de celulares en el que trabajo.
+                    Por el momento es la estructura principal del sitio web de Eco Cuchas: una ONG local que se encarga de proveer de refugio sustentable a perros callejeros.
                 </p>
                 <h2>
                     Tecnologías usadas:

@@ -5,12 +5,12 @@ function AboutDark(){
 
     return (
         <div>
-            <header>
+            <header className="headerDark">
                 <h1>Sobre Mi</h1>
                 <h2>¿Quién es Pablo Pulisich?</h2>
             </header>
             <ReturnHome/>
-            <section>
+            <section className="introDark">
                 <p>
                 En ésta sección vas a encontrar una breve descripción mía, quién soy, cuáles son mis objetivos, cuáles son mis planes a futuro, y algún que otro dato interesante
                     <br />
@@ -20,7 +20,7 @@ function AboutDark(){
                     <button>Omitir intro</button>
                 </a>
             </section>
-            <section>
+            <section className="headerDark">
                 <h2>¿Quién soy?</h2>
                 <p><i>“I am Gandalf and Gandalf means me”</i>- The Hobbit, J.R.R. Tolkien
                     <br />
@@ -30,7 +30,7 @@ function AboutDark(){
                     </p>
 
             </section>
-            <section>
+            <section className="about">
                 <h2>
                 “Se tiene que hacer”: Pablo en el trabajo.
 

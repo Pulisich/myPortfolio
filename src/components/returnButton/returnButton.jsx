@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 function ReturnHome(){
 
     return(
-        <div className="return">
-           <Link to="/"> 
+       
+           <Link to="/" className="return"> 
                 <button className="returnButton"> Home </button>
             </Link>
-        </div>
+        
     )
 }
 

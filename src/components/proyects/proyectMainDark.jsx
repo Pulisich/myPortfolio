@@ -1,19 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ReturnHome from "../returnButton/returnButton";
-import Funditron from "./project";
 
 function ProyectMainDark() {
 
     return (
         <div className="proyectDark">
-            <header>
+            <header className="headerDark">
 
                 <h1>Proyectos</h1>
 
             </header>
             <ReturnHome/>
-            <section>
+            <section className="introDark">
                 <p>En ésta sección encontrarás mis proyectos como desarrollador, algunos fueron por encargo, otros fueron para cursos, otros son personales.
 
                     <br />
@@ -38,7 +37,7 @@ function ProyectMainDark() {
                     
                     <Link to="/JorgeLandaJS">
                     <div className="card">
-                        <h3>E-commer JL</h3>
+                        <h3>E-commerce JL</h3>
                     </div>
                     </Link>
                     <Link to="/JlLanding">

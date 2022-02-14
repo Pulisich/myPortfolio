@@ -4,11 +4,11 @@ import ReturnHome from "../returnButton/returnButton";
 function ContactDark() {
     return (
         <div>
-            <header>
+            <header className="headerDark">
                 <h1>Contacto</h1>
             </header>
             <ReturnHome />
-            <section>
+            <section className="introDark">
                 <p>
                     Se libre de contactarme por éstos medios
                 </p>

@@ -10,7 +10,6 @@ function HomeDark() {
                 <h2>Front End Developer</h2>
             </header>
             <section className='introDark'>
-                <span><img src="" alt="Yo" /></span>
                 <h2>¡Hola!</h2>
                 <p>Mi nombre es Pablo Pulisich, te doy la bienvenida a mi portfolio personal.
                     <br />
@@ -21,19 +20,19 @@ function HomeDark() {
                 <h1>Mi portfolio</h1>
                 <div className='cardContainer'>
                     <Link to="/proyects">
-                    <div className="card">
-                        <h3>Proyectos</h3>
-                    </div>
+                        <div className="card">
+                            <h3>Proyectos</h3>
+                        </div>
                     </Link>
                     <Link to="/about">
-                    <div className="card">
-                        <h3>Sobre mi</h3>
-                    </div>
+                        <div className="card">
+                            <h3>Sobre mi</h3>
+                        </div>
                     </Link>
                     <Link to="/contact">
-                    <div className="card">
-                        <h3>Contacto</h3>
-                    </div>
+                        <div className="card">
+                            <h3>Contacto</h3>
+                        </div>
                     </Link>
                 </div>
             </section>

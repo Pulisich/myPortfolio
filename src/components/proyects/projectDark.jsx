@@ -4,11 +4,10 @@ import ReturnProjects from "../returnButton/returnProjectButton";
 function CityPhone(){
     return(
         <div>
-            <header><h1>City Phone E-Commerce</h1></header>
+            <header className="headerDark"><h1>City Phone E-Commerce</h1></header>
             <ReturnProjects/>
             <section className="projectDescription">
 
-                <img src="" alt="cityPhoneScreenShot" />
                 <p> Realizado para el módulo de React JS de la carrera de Desarrollador Front End de Coderhouse.
                     <br />
                     Emula lo que sería el e-commerce de un local de accesorios de celulares en el que trabajo.
