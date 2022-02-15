@@ -22,7 +22,11 @@ a{
 }
 .headerDark h1{
   font-size: 260%;
-  margin-right: 2%;
+  margin-right: 5%;
+}
+
+.headerDark h2{
+  margin-right: 5%;
 }
 .introDark{
   background-color: #445561;
